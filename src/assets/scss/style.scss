@@ -13,8 +13,15 @@ body {
     color: $white;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
 /* Blocks  */
+@import"blocks/page.scss";
 @import"blocks/header.scss";
 @import"blocks/sidebar.scss";
 @import"blocks/main.scss";
+@import"blocks/container.scss";
